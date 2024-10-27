@@ -69,11 +69,11 @@ header {
   top: 0;
   left: 0;
   z-index: 1000; /* Ensure the header is always on top */
-  font-family: DM Serif Text,serif;
+  font-family: Urbanist, serif;
 }
 
 header .logo img {
-  height: 50px;
+  height: 55px;
   border-radius: 50%;
 }
 
@@ -81,7 +81,7 @@ header nav ul {
   list-style: none;
   display: flex;
   margin: 0;
-  margin-right: 690px;
+  margin-right: 500px;
 }
 
 header nav ul li {
@@ -92,7 +92,7 @@ header nav ul li a {
   color: var(--text-color);
   text-decoration: none;
   font-weight: normal;
-  font-size: 1.2em;
+  font-size: 1.21em;
   transition: color 0.3s ease;
 }
 
@@ -150,7 +150,7 @@ section#home {
   justify-content: center;
   align-items: center;
   height: 80vh;
-  background: linear-gradient(135deg, var(--primary-gradient-start) 40%, var(--primary-gradient-end) 70%);
+  background: linear-gradient(135deg, var(--primary-gradient-start) 40%, var(--primary-gradient-end) 80%);
   color: white;
   margin-bottom: 50px;
 }
@@ -392,8 +392,7 @@ hr{
   display: flex;
   flex-direction: column;
   flex: 1;
-  margin: 20px;
-  
+  margin: 20px; 
 }
 
 .footer-title {
@@ -404,7 +403,7 @@ hr{
 .footer-title h4 {
   font-size: 50px;
   margin: 0;
-  font-family: DM Serif Text, serif;
+  font-family: "DM Serif Text", serif;
 }
 
 .footer-sections-horizontal {
@@ -417,9 +416,10 @@ hr{
 
 .footer-section {
   flex: 1;
-  margin: 60px;
+  /* margin: 60px; */
   margin-bottom: 15px;
-  margin-top: 15px;
+  margin-top: 20px;
+  margin-left: 25px;
   line-height: 1.5em;
 }
 
@@ -436,13 +436,13 @@ hr{
   border-radius: 10px;
 }
 
-.footer hr {
+.footer, hr {
   color: #fff;
 }
 
 .newsletter-form {
   display: flex;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .newsletter-form input {
@@ -472,7 +472,7 @@ footer h4 {
 footer a {
   color: #fff;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1.0rem;
 }
 
 footer a:hover {
